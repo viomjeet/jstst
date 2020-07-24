@@ -30,8 +30,8 @@ const getNumber = () => {
                 _break = 0
             }
         }
-        $("table").html(tableRow);
-        $('table tr td').each(function (i, j) {
+        $("#jsTable").html(tableRow);
+        $('#jsTable tr td').each(function (i, j) {
             $(this).find(".active").click(function () {
                 $('table tr td').find('button').not(".active").attr("disabled", false).addClass("activee")
             })
