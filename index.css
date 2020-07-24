@@ -1,0 +1,34 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css");
+body {
+    background: #dedede;
+}
+table {
+    border-collapse: collapse;
+    background: #fff;
+    margin: auto;
+}
+
+table td {
+    border: 1px solid #dedede !important;
+    padding: 0px !important;
+}
+
+table td > button {
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+
+table td > button:focus {
+    outline: 0 none;
+}
+
+table td > button.active {
+    background: rgb(13, 209, 55);
+    cursor: pointer;
+}
+
+table td > button.activee {
+    background: rgb(10, 115, 236);
+    cursor: pointer;
+}

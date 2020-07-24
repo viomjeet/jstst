@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <link rel="stylesheet" href="index.css" />
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 mx-auto">
+                <div class="form-group mt-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="number"
+                            oninput="this.value = this.value.replace(/[^0-9.]/g, '')" max="5" maxlength="1"
+                            pattern=".{10,}" id="number" autocomplete="off" placeholder="Enter Number">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-success" onclick="getNumber();">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                    <table></table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
