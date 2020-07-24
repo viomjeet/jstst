@@ -17,13 +17,13 @@
                     <div class="input-group">
                         <input type="text" class="form-control" name="number"
                             oninput="this.value = this.value.replace(/[^0-9.]/g, '')" max="5" maxlength="1"
-                            pattern=".{10,}" id="number" autocomplete="off" placeholder="Enter Number">
+                            pattern=".{10,}" id="number" autocomplete="off" placeholder="Enter Number 1 to 9">
                         <div class="input-group-append">
                             <button type="button" class="btn btn-success" onclick="getNumber();">Submit</button>
                         </div>
                     </div>
                 </div>
-                    <table></table>
+                    <table id="jsTable"></table>
                 </div>
             </div>
         </div>
